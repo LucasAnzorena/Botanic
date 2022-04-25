@@ -122,13 +122,13 @@ nav{
     grid-area: pie;
     
 }    
-.footer .container{
+.footer .cont{
     display: flex;
     text-align: justify;
     align-items: center; 
     list-style: none;
 }
-    .footer .container h5 a{
+    .footer .cont h5 a{
     text-align: right;
     }
 
@@ -137,15 +137,15 @@ nav{
     margin-left: 200px ;
     display: flex
 }
-.footer .container img{
+.footer .cont img{
     width: 150px;
     height: 150px;
 }
-.footer .container h4 {
+.footer .cont h4 {
     margin: 15px;
     align-items: flex-start;
 }
-.footer .container p{
+.footer .cont p{
     font-size: small;
     display: flex;
     align-items: flex-end;
@@ -167,17 +167,17 @@ nav{
         display: flex;
         align-items: center;
     }
-.footer .container a{
+.footer .cont a{
     text-decoration: none;
     color: black;
     font-size: 15px;
     text-align: start;
 }
-.footer .container .info h5{
+.footer .cont .info h5{
     display: flex;
     align-items: flex-start;
 }
-.footer .container a img{
+.footer .cont a img{
     display: flex;
     margin: 15px;
     width: 35px;
