@@ -8,85 +8,75 @@
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="contenedorIndex">
-        <header class="header">
-            <a href="index.html">
-            <img class="navegadorLogo" src="images/logo.png" alt="logo">
+        <div class="contenedorIndex container-fluid">
+        <header class="header row ">
+            <a class="col-lg-2 col-md-2 col-sm-2 focus-in-contract" href="index.html">
+            <img class="navegadorLogo float-start " src="images/logo.png" alt="logo">
             </a>
-        <h1>BOTANIC SM</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-            </ul>
-            <ul>
-                <li><a href="pages/productos.html">Productos</a></li>
-            </ul>
-            <ul><li><a href="pages/nosotros.html">Nosotros</a></li></ul>
-            <ul><li><a href="pages/contacto.html">Contacto</a></li></ul>
-            <ul><li><a href="pages/galeria.html">Galeria</a></li></ul>
+        <h1 class="col-lg-4 col-md-4 col-sm-6 focus-in-contract">BOTANIC SM</h1>
+        <nav class="navbar navbar-expand-lg navbar-light col-lg-6 col-md-6 col-sm-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav">
+                    <li class="nav-item"><a class="button" aria-current="page" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="button" href="pages/productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="button" href="pages/nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="button" href="pages/contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="button" href="pages/galeria.html">Galeria</a></li>
+                </ul>
+                </div>
+            </div>
         </nav>
-        </header>  
+        </header>
         <main class="main">
-        <section class="muestra">
-            <h2>Nuestros Productos</h2>
-            <div>    
-                <article class="articulo1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class="img-fluid" src="images/boxacmixbotanic.jpg" alt="">
-                            </div>    
-                            <div class="col-6">
-                                    <h3>Box Acrilicos</h3>
-                                    <p>Representados en versiones de 6 y 4 compartimientos - Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, id necessitatibus provident incidunt, ipsum quod maiores animi sapiente aliquid vel rerum. Unde deleniti labore soluta quis minima. Officiis, nulla eum!
-                                    Delectus deleniti, ab dignissimos perspiciatis tempora adipisci eligendi nostrum. Velit voluptate consectetur nihil distinctio assumenda perspiciatis molestiae ipsum natus sint similique aliquam fuga itaque tenetur amet enim, magnam veritatis molestias.
-                                    Sed dolorum, ab voluptatibus itaque fugit necessitatibus aspernatur? Consectetur tenetur beatae cum at asperiores! Sed quia hic facere aspernatur, odit tempora ipsum quos dicta impedit quidem alias est asperiores! Autem.
-                                    Tempore esse distinctio molestiae maiores delectus similique nihil nostrum debitis dignissimos. Quod, nostrum. Quae laudantium dolor, iure dicta perspiciatis tempora magni nihil veniam optio ipsa maxime, porro nemo laborum fugiat.
-                                    Eum architecto commodi illum vitae praesentium labore quasi esse doloribus ad quisquam, eligendi dolores minus maiores repellat quaerat pariatur dolorum aliquid molestiae aut? Aperiam commodi nisi eveniet nemo amet voluptatibus.</p>
-                            </div>
-                        </div>    
-                    </div>
-                </article>
-                <article class="articulo2">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-                                <img class="img-fluid" src="images/citricopomelo3.jpg" alt="">
-                            </div>
-                            <div class="col-6">
-                                <h3>Citricos</h3>
-                                <p>En presentaciones de 10 rodajas, para añadirle ese toque distintivo a tus bebidas. - Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate atque facilis nulla expedita iure aspernatur, adipisci corrupti voluptatibus cumque labore voluptates, explicabo consequatur recusandae sint a, saepe ratione? Sunt, quaerat.
-                                Necessitatibus aliquam commodi ducimus officia nobis cupiditate ratione. Necessitatibus doloremque ipsum ad blanditiis doloribus sunt recusandae earum nulla, laboriosam deserunt repellendus nemo. Iure est officia sed animi harum debitis ipsum.
-                                Fugiat enim explicabo beatae aperiam error, officia tempore exercitationem saepe inventore aut dolore sint cum facere illo placeat modi quibusdam veniam cumque corporis deleniti ad accusantium! Quasi impedit iure eum.
-                                Ut nisi autem odit vel? Eos dignissimos hic iste eaque est similique quis. Nam eaque beatae architecto. Non, illo vero, reprehenderit fugit consequatur sed unde itaque tempore ex numquam molestiae!
-                                Autem eligendi repudiandae corporis! Nemo quam recusandae adipisci eligendi repellendus enim laboriosam minima neque necessitatibus numquam, sunt provident sed unde repudiandae inventore esse quibusdam velit ullam! Ipsa, similique! Vel, quisquam?</p>
-                            </div>        
+            <section class="muestra">
+                <div class="row">
+                    <h2 class="col h2Titular">Nuestros Productos</h2>
+                </div>
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade swing-in-bottom-fwd" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/boxacmixbotanic.jpg" class="d-block w-100" alt="mixbotanic">
                         </div>
-                    </div>
-                </article>
-            </div>
-    </section>
-    </main>
-        <div>
-        <footer class="footer">
-            <div class="cont">
-                <a href="index.html">
-                <img src="images/logo.png" alt="logopiedepagina"></a>
-                <h4>Lucas Anzorena</h4>
-                <p>Todos los Derechos Reservados</p>
-            <div class="info">
-                <h5><a href="pages/nosotros.html">Quienes Somos</a></h5>
-                <h5><a href="pages/contacto.html">Contacto</a></h5>
-            </div>    
-            </div>
-            <div class="logos">
-                <h5>Seguinos en nuestras redes</h5>  
-                <a href="https://www.instagram.com/botanicsm.sf/?hl=es"><img src="images/instagram(2).png" alt="logo"></a>
-                <a href="https://www.facebook.com/botanicsmsf-101194568454408/"><img src="images/facebook.png" alt="logo facebook"></a>
+                        <div class="carousel-item">
+                            <img src="images/citricopomelo3.jpg" class="d-block w-100" alt="citricospomelo">
+                        </div>
+                        <div class="carousel-item">
+                            <img  src="images/box4toppig.jpg" class="d-block w-100" alt="box veraniego">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>  
+        <footer class="footer row">
+            <div class="row">
+                <div class="cont col-lg-4 col-xs-12 logos">
+                    <h5>Seguinos en nuestras redes</h5>  
+                    <a href="https://www.instagram.com/botanicsm.sf/?hl=es"><img src="images/instagram(2).png" alt="logo"></a>
+                    <a href="https://www.facebook.com/botanicsmsf-101194568454408/"><img src="images/facebook.png" alt="logo facebook"></a>
+                </div>
+                <div class="cont  col-lg-3 col-xs-12">
+                    <h5><a href="pages/nosotros.html">Quienes Somos</a></h5>
+                    <h5><a href="pages/contacto.html">Contacto</a></h5>
+                </div>    
+                <div class="cont  col-lg-4 col-xs-12">
+                    <a href="index.html"><img src="images/logo.png" alt="logopiedepagina"></a>
+                    <h4>Lucas Anzorena</h4>
+                    <p>Todos los Derechos Reservados</p>
+                </div>
             </div>
         </footer>
         </div>
-    </div>
     <script src="js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

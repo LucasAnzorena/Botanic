@@ -9,69 +9,83 @@
         <link rel="stylesheet" href="../ProyectoBotanic/css/styles.css">
 </head>
 <body>
-    <header class="header">
-        <link rel="shortcut icon" href="../images/logo.png">
-        <a href="../index.html">
-            <img src="../images/logo.png" alt="logo">
-        </a>
-        <h1>BOTANIC SM</h1>
-        <nav>
-            <ul><li><a href="../index.html">Inicio</a></li></ul>
-            <ul><li><a href="productos.html">Productos</a></li></ul>
-            <ul><li><a href="nosotros.html">Nosotros</a></li></ul>
-            <ul><li><a href="contacto.html">Contacto</a></li></ul>
-            <ul><li><a href="galeria.html">Galeria</a></li></ul>
+    <div class="contenedorIndex container-fluid">
+        <header class="header row ">
+            <a class="col-lg-2 col-md-2 col-sm-2 focus-in-contract" href="../index.html">
+            <img class="navegadorLogo float-start " src="../images/logo.png" alt="logo">
+            </a>
+        <h1 class="col-lg-4 col-md-4 col-sm-4 focus-in-contract">BOTANIC SM</h1>
+        <nav class="navbar navbar-expand-lg navbar-light col-lg-6 col-md-6 col-sm-6">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="button" aria-current="page" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="button" href="productos.html">Productos</a></li>
+                    <li class="nav-item"><a class="button" href="nosotros.html">Nosotros</a></li>
+                    <li class="nav-item"><a class="button" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="button" href="galeria.html">Galeria</a></li>
+                </ul>
+                </div>
+            </div>
         </nav>
-    </header>
-        <div class="main">
-            <h2>Contacto</h2>
-            <h4>Escribinos tu consulta, y te estaremos respondiendo a la brevedad</h4>
-        <form class="Formulario">
-            <fieldset>
-                <legend>Formulario de Contacto</legend><br>
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="ingresa tu nombre completo">
-                        <label for="floatingInput">Ingresa tu nombre completo</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="number" class="form-control" id="floatingInput" placeholder="ingresa tu telefono">
-                        <label for="floatingInput">Telefono</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com" name="email">
-                        <label for="floatingInput">Email</label>
-                    </div>
-                    <div class="form-floating mb-3">
-                        <textarea class="form-control" id="floatingTextarea2" name="mensaje" placeholder="Deje su mensaje aqui." style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Deje su mensaje aqui</label>
-                    </div>
-                    <div class="d-grid gap-2 d-md-block">
-                        <input type="submit" class="btn btn-lg btn-primary" value="Enviar">
-                        <input type="reset" class="btn btn-secondary btn-lg" value="Limpiar">
-                    </div>
-            </fieldset>
-        </div>
-        </form>
-            
-            <div>
-                <footer class="footer">
-                    <div class="cont">
-                        <a href="../index.html">
-                        <img src="../images/logo.png" alt="logopiedepagina"></a>
-                        <h4>Lucas Anzorena</h4>
-                        <p>Todos los Derechos Reservados</p>
-                        <div class="info">
-                            <h5><a href="../pages/nosotros.html">Quienes Somos</a></h5>
-                            <h5><a href="../pages/contacto.html">Contacto</a></h5>
-                        </div>    
-                    </div>
-                    <div class="logos"> 
-                        <h5>Seguinos en nuestras redes</h5>
+        </header>
+            <div class="main">
+                <div class="row">
+                        <h2>Contacto</h2>
+                        <h4>Escribinos tu consulta, y te estaremos respondiendo a la brevedad</h4>
+                </div>    
+                <form class="Formulario">
+                <fieldset>
+                    <legend>Formulario de Contacto</legend><br>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="ingresa tu nombre completo">
+                            <label for="floatingInput">Ingresa tu nombre completo</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingInput" placeholder="ingresa tu telefono">
+                            <label for="floatingInput">Telefono</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="nombre@ejemplo.com" name="email">
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="floatingTextarea2" name="mensaje" placeholder="Deje su mensaje aqui." style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Deje su mensaje aqui</label>
+                        </div>
+                        <div class="d-grid gap-2 d-md-block">
+                            <input type="submit" class="btn btn-lg btn-primary" value="Enviar">
+                            <input type="reset" class="btn btn-secondary btn-lg" value="Limpiar">
+                        </div>
+                </fieldset>
+            </div>
+            </form>
+                
+                <div>
+                    <footer class="footer row">
+                        <div class="row">
+                            <div class="cont col-lg-4 col-xs-12 logos">
+                                <h5>Seguinos en nuestras redes</h5>  
                                 <a href="https://www.instagram.com/botanicsm.sf/?hl=es"><img src="../images/instagram(2).png" alt="logo"></a>
                                 <a href="https://www.facebook.com/botanicsmsf-101194568454408/"><img src="../images/facebook.png" alt="logo facebook"></a>
-                    </div>       
+                            </div>
+                            <div class="cont  col-lg-3 col-xs-12">
+                                <h5><a href="../pages/nosotros.html">Quienes Somos</a></h5>
+                                <h5><a href="../pages/contacto.html">Contacto</a></h5>
+                            </div>    
+                            <div class="cont  col-lg-4 col-xs-12">
+                                <a href="index.html"><img src="../images/logo.png" alt="logopiedepagina"></a>
+                                <h4>Lucas Anzorena</h4>
+                                <p>Todos los Derechos Reservados</p>
+                            </div>
+                        </div>
                     </footer>
-            </div>
+                </div>
+    </div>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
