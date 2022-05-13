@@ -1,0 +1,79 @@
+/*---HEADER/NAV----*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #89B5AF;
+    margin: 0%;
+    padding: 0%;
+    h1{
+        position: relative;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: bolder;
+        justify-content: space-around;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-self: auto;
+        margin-block-start: auto;
+        }
+    nav{
+        ul{
+            display: flex;
+            flex-wrap: nowrap;
+            list-style: none;
+            li{
+                margin: 15px;
+                a{
+                    font-family: 'Josefin Sans', sans-serif;
+                    display: flex;
+                    text-decoration: none;
+                    color: white;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    &:hover{
+                        color: #000000;
+                        transition: 1s;
+                        text-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+}
+@keyframes focus-in-contract {
+    0% {
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    filter: blur(0px);
+    opacity: 1;
+    }
+}
+.focus-in-contract{
+    animation: focus-in-contract 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.button{
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 10px 20px 30px 40px;
+    background:  #89b5af;
+    border: 1px solid #89b5af;
+    transition: all .3s;
+    width: auto;
+    box-shadow: 6px 6px 12px #89b5af,
+                -6px -6px 12px #89b5af;
+                &:hover{
+                    border: 1px solid #4e583b;
+                }
+                &:active{
+                    box-shadow: 4px 4px 12px #6e7c51,
+                                -4px -4px 12px #9b9b9b;
+                }
+}
